@@ -19,7 +19,6 @@
       <HomePage bind:scrollY={homePageScrollY} />
     </Route>
   </div>
-  <SubmitWaifuNotAvailableModal />
 </Router>
 
 <style>

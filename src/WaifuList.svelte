@@ -99,14 +99,6 @@
                 {i18n.showAllWaifu({ number: waifuDataList.length })}
               </div>
             </Link>
-            <button type="button" class="list-group-item list-group-item-action d-flex align-items-center waifu-info me-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              <div class="">
-                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-plus-lg me-3" viewBox="0 0 16 16">
-                  <path d="M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z"/>
-                </svg>
-                {i18n.helpUsAddMoreWaifu()}
-              </div>
-            </button>
             <a href="https://github.com/SoftwareSing/popwaifu" target="_blank" style="text-decoration: none;">
               <div class="list-group-item list-group-item-action d-flex align-items-center waifu-info me-1">
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github me-3" viewBox="0 0 16 16">
